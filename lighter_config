@@ -1,0 +1,23 @@
+#IMG_NAME="raspios-$RELEASE-$ARCH"
+#PI_GEN_RELEASE (Default: Raspberry Pi reference)
+#RELEASE (Default: bookworm)
+#APT_PROXY (Default: unset)
+#WORK_DIR (Default: $BASE_DIR/work)
+#DEPLOY_DIR (Default: $BASE_DIR/deploy)
+DEPLOY_COMPRESSION=xz
+COMPRESSION_LEVEL=9
+#USE_QEMU (Default: 0)
+LOCALE_DEFAULT="en_US.UTF-8"
+#TARGET_HOSTNAME (Default: 'raspberrypi' )
+KEYBOARD_KEYMAP="us"
+KEYBOARD_LAYOUT="English (US)"
+#TIMEZONE_DEFAULT (Default: 'Europe/London' )
+#FIRST_USER_NAME (Default: pi)
+#FIRST_USER_PASS (Default: unset)
+#DISABLE_FIRST_BOOT_USER_RENAME (Default: 0)
+#WPA_COUNTRY (Default: unset)
+#ENABLE_SSH (Default: 0)
+#PUBKEY_SSH_FIRST_USER (Default: unset)
+#PUBKEY_ONLY_SSH (Default: 0)
+#SETFCAP (Default: unset)
+STAGE_LIST="stage0 stage1 stage2 lighter_customizations"
